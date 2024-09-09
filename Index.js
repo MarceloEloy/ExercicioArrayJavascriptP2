@@ -1,7 +1,9 @@
 notas = [1, 4, 6, 7, 8, 9, 10, 9,  10, 9,  10, 5]
 const tudo = notas.push(10)
+console.log(notas[0])
 notas.shift(notas[0])
 console.log(notas[0])
+console.log(notas)
 console.log(notas[notas.length - 1])
 var z = 0
 for (var x = 0; x < tudo;){
@@ -30,7 +32,7 @@ console.log(listaorganizada.indexOf(8.0))
 function map(){
     const notas3 = [1, 2, 3, 4, 5, 6, 7, 8, 9]
     for(i in notas3){
-        console.log(Math.pow(i, 2))
+        console.log(notas3[i], "Ao quadrado é: ", Math.pow(notas3[i], 2))
     }
 }
 map()
